@@ -1,0 +1,6 @@
+.container {
+    padding: 20px;
+    margin: 20px 20%;
+    overflow-x: auto;
+    border-radius: 10px;
+}
