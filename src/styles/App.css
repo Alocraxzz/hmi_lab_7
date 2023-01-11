@@ -1,5 +1,9 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
 .App {
-
+  font-size: calc(10px + 1vmin);
   text-align: center;
 }
 
@@ -16,12 +20,11 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 100%;
+  
+  padding-bottom: 10%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(1px + 2vmin);
   color: white;
 }
 
