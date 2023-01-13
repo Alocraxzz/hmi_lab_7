@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './Input.module.css';
 
-const Input = ({ children, ...props }) => {
+export const Input = ({ children, ...props }) => {
     return (
         <div className={ classes.inputContainer }>
             <input { ...props } className={[classes.input, classes.large].join(' ')} />
@@ -11,5 +11,3 @@ const Input = ({ children, ...props }) => {
         </div>
     )
 }
-
-export default Input;

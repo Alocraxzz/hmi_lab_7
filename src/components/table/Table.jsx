@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './Table.module.css';
 
-const Table = ({ children }) => {
+export const Table = ({ children }) => {
     return (
         <div className={classes.tableContainer}>
             <table>
@@ -10,5 +10,3 @@ const Table = ({ children }) => {
         </div>
     )
 }
-
-export default Table;
